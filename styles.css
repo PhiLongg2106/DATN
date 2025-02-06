@@ -1,0 +1,96 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a0e1a;
+    color: white;
+    text-align: center;
+}
+
+/* Thanh điều hướng */
+header {
+    background: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search {
+    font-size: 18px;
+}
+
+/* Banner chính */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+    position: relative;
+}
+
+.player img {
+    width: 300px;
+}
+
+.player p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text h1 {
+    font-size: 50px;
+    color: #ff4500;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 400px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ff4500;
+}
+
+/* Thông tin sự kiện */
+.info {
+    margin: 50px 0;
+}
+
+.info h2 {
+    font-size: 36px;
+}
+
+.info p {
+    font-size: 18px;
+    margin-top: 10px;
+}
